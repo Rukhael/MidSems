@@ -1,0 +1,98 @@
+html{
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    margin: -8px;
+    margin-right: -35px;
+    /* display: grid;
+    grid-template-areas: 
+        "head head"
+        "body body"
+        "footer footer"; */
+}
+
+.head{
+    background-color: #1c2833;
+    color: #f4d03f;
+    grid-area: head;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    background-color: #1c2833;
+    padding: 10px;
+    margin: 0;
+    color: #f4d03f;
+}
+
+body{
+    background-image:url(images/yellow-doodle-seamless-pattern_1409-8915.jpg);
+    grid-area: body;
+    width: 100%;
+}
+
+main{
+    background-color: #1c2833;
+    border-radius: 2px;
+    color: #f4d03f;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}.nav ul li {
+    margin-left: 20px;
+    padding-top: 5px;
+    
+    color:#ecfffb;
+  }.nav ul li a{
+    text-decoration: none;
+    color: #f4d03f;
+    text-align: center
+  }.nav ul li a:hover{
+    color: #ecfffb;
+  }
+
+  footer{
+    grid-area: footer;
+    background-color: #1c2833; 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    /* text-align: center; */
+    color: #f4d03f;
+    position: absolute; bottom: 0;
+    
+    grid-area: footer;
+
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+.social-icons a {
+    color: #ecfffb; 
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+
+.social-icons a:hover {
+    color: #376fa7; 
+}

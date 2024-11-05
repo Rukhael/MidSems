@@ -1,0 +1,70 @@
+body{
+    background-color: #131a24;
+    color: #f4d03f;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    background-image:url(images/yellow-doodle-seamless-pattern_1409-8915.jpg);
+
+}
+header{
+    
+        text-align: center;
+        color: #2c3e50;
+        
+        
+        
+        /* color: #f4d03f; */
+       
+}
+
+.form{
+    background-color: #1c2833;
+    border-radius: 20px;
+    margin: auto;
+  
+    
+    width: 400px;
+
+    padding: 20px;
+
+    
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    margin: -10px;
+}
+.footer{
+    grid-area: footer;
+    background-color: #1c2833; 
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    
+    /* height: 40px; */
+    /* text-align: center; */
+    color: #f4d03f;
+    position: absolute; bottom: 0;
+    
+    grid-area: footer;
+}
+
+button{
+    background-color: #f4d03f;
+    color: #1c2833;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+  }
